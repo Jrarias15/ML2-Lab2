@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "unsupervised-package"
+version = "0.1.0"
+description = ""
+authors = ["Jr Arias <jrarias15@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Clustering = "^1.0"
+dim_reduction = "^1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
